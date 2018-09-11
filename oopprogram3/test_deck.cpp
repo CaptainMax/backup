@@ -11,7 +11,7 @@ int main(){
 	cout << "part 1" << endl;
 	
 		
-		Deck Card;
+		Deck Card(10);
 		Card.deal();
 			
 	

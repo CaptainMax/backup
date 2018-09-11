@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1536122874 source:/media/sf_OOP/bouns/cse2320/main.c
+	<stdio.h>
+	<stdlib.h>
+
