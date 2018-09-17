@@ -1,0 +1,15 @@
+#include "Electric_vehicle.h"
+
+Electric_vehicle::Electric_vehicle(int newYeal, std::string newMake, std::string newModel, Body_style body, double newMiles, double newMax)
+	:Vehicle(newYeal, newMake, newModel, body){
+	miles_per_kwh = newMiles;
+	max_kwh = newMax;
+}
+double Electric_vehicle::kwh_consumed(double totalmile){
+	
+		int result = totalmile / miles_per_kwh;
+		if(result > max_kwh) throw std::runtime_error{"out of power"};
+		return result;	
+		
+}
+

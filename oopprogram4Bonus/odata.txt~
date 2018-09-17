@@ -1,0 +1,4 @@
+Gas_vehicle  {2017, "Toyota", "RAV4", 	 Gas_vehicle::Body_style::CROSSOVER, 26, 15.9},
+Gas_vehicle  {2018, "Ford", "F-150", 	 Gas_vehicle::Body_style::TRUCK, 21, 36},
+Gas_vehicle  {2018, "Nissan", "Rogue",   Gas_vehicle::Body_style::HATCHBACK, 29, 14.5},
+Gas_vehicle  {2018, "Chrysler", "Pacifica",   Gas_vehicle::Body_style::MINIVAN, 22, 19},
