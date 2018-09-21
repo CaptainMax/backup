@@ -1,0 +1,11 @@
+output : main.o Isosceles.o Triangle.o
+	g++ main.o Isosceles.o Triangle.o -o output
+main.o : main.cpp
+	g++ -c main.cpp
+Isoscels.o : Isoscels.h Isoscels.cpp
+	g++ -c Isoscels.h Isoscels.cpp
+Trangle.o : Trangle.h Trangle.cpp
+	g++ -c Trangle.h Trangle.cpp
+
+clearn:
+	rm *.o output

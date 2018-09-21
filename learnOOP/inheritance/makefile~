@@ -1,0 +1,11 @@
+output : inheritance.o Isosceles.o Trangle.o
+	g++ inheritance.o Isosceles.o Trangle.o -o output
+inheritance.o : inheritance.cpp
+	g++ -c inheritance.cpp
+Isosceles.o : Isosceles.h Isosceles.cpp
+	g++ -c Isosceles.h Isosceles.cpp
+Triangle.o : Trangle.h Trangle.cpp
+	g++ -c Trangle.h Trangle.cpp
+
+clearn:
+	rm *.o output

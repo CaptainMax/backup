@@ -1,7 +1,7 @@
 #ifndef ELECTRIC_VEHICLE_H
 #define ELECTRIC_VEHICLE_H
 
-#include "Vechicle.h"
+#include "Vehicle.h"
 #include <exception>
 
 class Electric_vehicle : public Vehicle{

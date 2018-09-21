@@ -22,17 +22,22 @@ int main(){
 	ifstream inEleFile;
 	inEleFile.open("edata.txt");
 
+	
+
 	if(inEleFile.fail()){
 		cerr << "Error open file" << endl;
 		exit(1);
 	} 
 
+	
+	std::vector <Electric_vehicle> evs;
+	Electric_vehicle ee;
 	// This is electrict car part
 	while(!inEleFile.eof()){
-		std::vector<Electric_vehicle> evs = {
-			inEleFile << Electric_vehicle;
-		};
-
+		
+		inEleFile >> ee;
+		//ee.Electric_vehicle::Body_style;
+		evs.push_back(ee);	
 	}
 	
 		
@@ -53,9 +58,9 @@ int main(){
 		exit(1);
 	}
 
-	while(!inoFile.eof()){
+	while(!inoilFile.eof()){
 		std::vector<Gas_vehicle> ice = {
-			inoFile << Gas_vehicle;
+			inoilFile << Gas_vehicle;
 		};
 			
 	}

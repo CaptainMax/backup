@@ -1,7 +1,7 @@
-output :  card.o main.o deck.o
-	g++ card.O main.o deck.o -o outputcard
-test_card.o: main.cpp
-	g++ -c main.cpp
+output :  card.o test_deck.o deck.o
+	g++ card.O test_deck.o deck.o -o outputcard
+test_card.o: test_deck.cpp
+	g++ -c test_deck.cpp
 card.O: card.cpp card.h deck.cpp deck.h
 	g++ -c card.cpp deck.cpp
 

@@ -1,0 +1,17 @@
+#ifndef Deck_H
+#define Deck)h
+#include "card.h"
+
+const int DECKSIZE =30;
+class Deck{
+private:
+	Card inDeck[DECKSIZE];
+
+public:
+	Deck();
+	Card getCard();
+	void addCard(Card);
+	int totalCards();
+
+};
+#endif

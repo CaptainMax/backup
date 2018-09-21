@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1536467053 source:/media/sf_OOP/game/test02/main.c
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<dirent.h>
+	<string.h>
+	<time.h>
+	<curses.h>
+

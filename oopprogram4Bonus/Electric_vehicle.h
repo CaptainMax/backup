@@ -7,6 +7,7 @@
 class Electric_vehicle : public Vehicle{
 
 	public:
+		Electric_vehicle();
 		Electric_vehicle(int, std::string, std::string, Body_style, double, double);
 		double kwh_consumed(double miles = 100);
 	private:

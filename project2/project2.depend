@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1536011193 source:/media/sf_OOP/project2/main.cpp
+	<iostream>
+	"polygon.h"
+
+1536007335 /media/sf_OOP/project2/polygon.h
+
+1536009483 source:/media/sf_OOP/project2/polygon.cpp
+	"polygon.h"
+

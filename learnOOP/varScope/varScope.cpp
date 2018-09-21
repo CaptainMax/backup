@@ -1,0 +1,56 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+//Function DEcleartions
+void printMessage();
+//printMessage - prints a welcoming message for the user
+
+void addNums(int num1, int num2);
+//addNums - add two integers
+//@param int - first number to be ADD
+//@param int - second number to be ADD
+
+void subNums(int, int);
+//subNums - sub two integers
+//@param int - first number to be sub
+//@param int - second number to be sub
+void printResult(int);
+//printResult - prints whatever is passed in as a parameter
+//@parm int - the number to be printed
+
+//Global Scope
+const int y = 5;
+
+int main(){
+	
+	printMessage();
+
+	int num1, num2;
+
+	cout << "Type in two integers: \n";
+	cin >> num1 >> num2;	
+	addNums(num1, num2);
+	cout << endl;
+	subNums(num1, num2);
+	cout << endl;
+	return 0 ;
+}
+//function definitions
+void printMessage(){
+	//local scope
+	int x = 5;
+	cout << "Math operations"<< endl;
+}
+
+void addNums(int num1, int num2){
+	
+	printResult(num1 + num2);
+}
+void subNums(int num1, int num2){
+	printResult(num1 - num2);
+}
+void printResult(int num){
+	cout << num;
+}

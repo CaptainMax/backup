@@ -1,0 +1,19 @@
+#include <iostream>
+#include "Isosceles.h"
+using namespace std;
+
+int main(){
+	int height, base, side;
+	
+	cout << "please enter the height " << endl;
+	cin >> height;
+	cout << "please enter the base " << endl;
+	cin >> base;
+	cout << "please enter the equal side" << endl;
+	cin >> side;
+
+	Isosceles tran(height, base, side);
+	cout << endl;
+	Isosceles.print();
+
+}

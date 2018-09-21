@@ -30,6 +30,7 @@ void printarray(struct value_index_pair ps[], int size){
 void finalprint(struct value_index_pair ps[], int size){
    int i = 0;
    printf("final print show no dupilicate value follow the order by index\n");
+   printf("This size is %d\n", size);
    for(i; i < size; i++){
        printf("value is %d\n",ps[i].value);
    }

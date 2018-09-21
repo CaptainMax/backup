@@ -1,4 +1,4 @@
-2014, "Telsa", "Model S 85", Electric_vehicle::Body_style::SEDAN, 3.12, 85
-2014, "Telsa", "Model 3 LR", Electric_vehicle::Body_style::SEDAN, 4.13, 75
-2018, "GM", "Bolt", Electric_vehicle::Body_style::HATCHBACK, 3.58, 60
-2018, "Nissan", "LEAF SL",   Electric_vehicle::Body_style::HATCHBACK, 3.88, 40
+2014, "Telsa", "Model S 85", SEDAN, 3.12, 85
+2014, "Telsa", "Model 3 LR", SEDAN, 4.13, 75
+2018, "GM", "Bolt", HATCHBACK, 3.58, 60
+2018, "Nissan", "LEAF SL", HATCHBACK, 3.88, 40

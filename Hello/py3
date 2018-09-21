@@ -1,0 +1,7 @@
+def countMeansure(num):
+	x = 1
+	for x <= num :
+	print(x +",2 ,3 ,4")
+	x += 1
+
+countMeansure(5)
